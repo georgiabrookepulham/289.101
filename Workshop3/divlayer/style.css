@@ -2,9 +2,6 @@ body{
     background-color:#441e13;
     color:white;
 }
-div {
-    outline: 1px solid red;
-}
 
 .container{
     width:1200px;
@@ -137,4 +134,9 @@ div {
     color: black;
     font-family: sans-serif;
     padding: 10px 45px
+}
+.text3{
+    color: black;
+    font-family: sans-serif;
+    padding:10px 45px
 }
