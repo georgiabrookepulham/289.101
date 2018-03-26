@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+p1{
+    color:#666d89; 
+}
+h1{
+    color: #666d89;
+}
+h2{
+    color: #666d89;
+}
+h3{
+    color: #666d89;
+}
+p2{
+    color: #666d89;
+    font-size:0.7rem;
+    
+}
+div{
+    outline:2px solid lime;
+}
+body{
+    background-color: #f2f2f2;
+    margin:0;
+    font-family: 'Lato', sans-serif;
+    
+}
+.header{
+    background-color: #2d303a;
+    color: #FFFFFF;
+    height: 90px;
+}
+.nav{
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.logo{
+    margin-top:35px;
+    font-size: 1.4rem;
+    float: left;
+}
+.links{
+    margin-top:40px;
+    font-size: 0.75rem;
+    float: right;
+    color: #4b4e61;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.links a:hover{
+    color: #f06c64
+}
+.salmon{
+    color: #f06c64;
+}
+.banner{
+    background-color:#f06c64;
+    padding: 20px 0;
+    text-align: center;
+}
+.banner img{
+    max-width: 780px;
+    width: 90%;
+}
+
+@media screen and (max-width:480){
+    body{
+        background-color: green
+    }
+}
+.services{
+    width: 950px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 66px;
+    background-color: #f2f2f2;
+
+}
+.boxs{
+    margin-top: 40px;
+}
+.box1{
+    height: 300px;
+    width: 33.33%;
+    float: left;
+}
+.pencil{
+    width: 25%;
+    float: left;
+    margin-top: 20px;
+}
+.textbox{
+    width: 75%;
+    float: left;
+}
+.phone{
+    width: 25%;
+    float: left;
+    margin-top: 62px;
+}
+.textbox2{
+    width: 75%;
+    float: left;
+    margin-top: 40px;
+}
+.bulb{
+    width: 25%;
+    float: left;
+    margin-top: 20px;
+}
+.textbox3{
+    width: 75%;
+    float: left;
+}
+.bubble{
+    width: 25%;
+    float:left;
+    margin-top: 62px;
+}
+.textbox4{
+    width:75%;
+    float: left;
+    margin-top: 40px;
+}
+.heart{
+    width: 25%;
+    float: left;
+    margin-top: 20px;
+}
+.textbox5{
+    width: 75%;
+    float: left;
+}
+.star{
+    width: 25%;
+    float: left;
+    margin-top: 62px;
+}
+.textbox6{
+    width: 75%;
+    float: left;
+    margin-top: 40px;
+}
+.portfolio{
+    background-color:#2d303a;
+    height: 848px;
+    width:950px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.folio{
+    height: 870px;
+    background-color: #2d303a;
+    margin-top: auto;
+    padding-top: 50px;
+}
+.secondlinks{
+    margin-top:20px;
+    font-size: 0.75rem;
+    float: left;
+}
+.secondlinks a{
+    color: #666d89;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid #666d89;
+    padding: 2px;
+}
+.secondlinks a:hover{
+    color: white;
+}
+.images{
+    margin-top: 40px;
+}
+.image{
+    float: left;
+    margin-top: 30px;
+}
+.about{
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    height: 700px;
+}
+.person1{
+    width: 300px;
+    height:450px;
+    float: left;
+    margin-top: 40px;
+    width: 32%;
+    margin-left:10px;
+}
+.icons{
+    margin-top: 10px;
+}
