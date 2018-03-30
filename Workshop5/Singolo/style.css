@@ -17,9 +17,6 @@ p2{
     font-size:0.7rem;
     
 }
-div{
-    outline:2px solid lime;
-}
 body{
     background-color: #f2f2f2;
     margin:0;
@@ -202,4 +199,6 @@ body{
 }
 .icons{
     margin-top: 10px;
+}
+
 }
