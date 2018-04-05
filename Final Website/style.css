@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+div{
+    outline: 1px solid lime;
+}
+body{
+    background-color: #fFfFfF;
+    margin:0;
+    font-family: 'Lato', sans-serif;
+}
+
+.logo{
+    margin-top:60px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.nav{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.menu{
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 60px;
+    
+}
+.menu a{
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 200;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-left: 70px;
+    margin-right: 70px;
+    position: relative;
+    
+}
+.menu a:hover{ 
+    border-bottom: 5px solid black;
+    padding-bottom: 16px;
+}
+.container{
+    width: 900px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #dadada;
+}
+.background{
+    background-color: #dadada;
+    margin-top: 70px;
+    height: 850px;
+}
+.work{
+    width: 900px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.square{
+    width: 150px;
+    height: 2px;
+    background-color: black;
+    margin-top: 60px;
+    margin-left: 250px;
+    float: left;
+}
+p1{
+    font-size: 2rem;
+    font-weight: 100;
+}
+.title1{
+    margin-top: 45px;
+    float: left;
+    margin-left: 20px;
+}
+.container2{
+    width: 900px;
+}
+
+.row1{
+    float: left;
+    max-height: 240px;
+    margin-top: -100px;
+}
+.row2{
+    float: left;
+    max-height: 240px;
+    margin-top: 30px;
+}
+.aboutme{
+    width: 900px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: #fbfec7;
+}
+
+.container3{
+    width: 700px;
+    margin-top: -500px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.about{
+    background-color: #fbfec7;
+    width: auto;
+    height: 650px;
+}
+.hey{
+    font-size: 2.5rem;
+}
+.design{
+    font-size: 2.5rem;
+}
+
