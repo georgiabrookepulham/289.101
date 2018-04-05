@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 div{
-    outline: 1px solid lime;
+    outline: px solid lime;
 }
 body{
     background-color: #fFfFfF;
@@ -48,12 +48,13 @@ body{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    background-color: #dadada;
+    background-color: #666769;
+    
 }
 .background{
-    background-color: #dadada;
+    background-color: #666769;
     margin-top: 70px;
-    height: 850px;
+    height: 504px;
 }
 .work{
     width: 900px;
@@ -119,4 +120,16 @@ p1{
 .design{
     font-size: 2.5rem;
 }
-
+.read{
+    font-weight: lighter;
+    font-size: 1.5rem;
+    border: 2px solid #454548;
+    padding: 15px;
+    color: #454548;
+    text-decoration: none
+}
+.readmore{
+    text-align: center;
+    margin-top: 120px;
+    
+}
