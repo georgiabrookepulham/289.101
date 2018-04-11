@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 div{
-    outline: px solid lime;
+    outline: 1px solid lime;
 }
 body{
     background-color: #fFfFfF;
@@ -37,35 +37,37 @@ body{
     margin-left: 70px;
     margin-right: 70px;
     position: relative;
+    margin-bottom: 70px;
     
 }
 .menu a:hover{ 
     border-bottom: 5px solid black;
     padding-bottom: 16px;
 }
-.container{
-    width: 900px;
+
+.background{
+    background-color: white;
+    height: 768px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    background-color: #666769;
+    width: 900px;
+    margin-top: -100px
     
 }
-.background{
-    background-color: #666769;
-    margin-top: 70px;
-    height: 504px;
-}
-.work{
-    width: 900px;
-    height: 650px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .square{
     width: 150px;
     height: 2px;
     background-color: black;
+    margin-top: 60px;
+    margin-left: 250px;
+    float: left;
+}
+.square2{
+    width: 150px;
+    height: 2px;
+    background-color:#333333;
     margin-top: 60px;
     margin-left: 250px;
     float: left;
@@ -79,57 +81,79 @@ p1{
     float: left;
     margin-left: 20px;
 }
-.container2{
+.service{
+    height: 600px;
+    background-color: #b6b6b6;
+}
+.services{
     width: 900px;
-}
-
-.row1{
-    float: left;
-    max-height: 240px;
-    margin-top: -100px;
-}
-.row2{
-    float: left;
-    max-height: 240px;
-    margin-top: 30px;
-}
-.aboutme{
-    width: 900px;
-    height: 650px;
+    height: 600px;
+    background-color:#b6b6b6; 
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
-    background-color: #fbfec7;
 }
-
-.container3{
-    width: 700px;
-    margin-top: -500px;
-    margin-left: auto;
-    margin-right: auto;
-    
+.boxes{
+    height: 500px;
+    width: 100%;
+    float: left;
 }
-.about{
-    background-color: #fbfec7;
-    width: auto;
-    height: 650px;
+.box1{
+    height: 400px;
+    width: 33.3%;
+    float: left;
+    margin-top: 50px;
 }
-.hey{
-    font-size: 2.5rem;
+.title2{
+    margin-top: 45px;
+    float: left;
+    margin-left: 20px;
+    color: #333333;
 }
-.design{
-    font-size: 2.5rem;
+.box2{
+    height: 170px;
+    padding: 7px;
 }
-.read{
+.box3{
+    height: 170px;
+}
+.box4{
+    height: 170px;
+    margin-top: -67px;
+    padding: 7px;
+}
+.bulb{
+    width: 25%;
+    float: left;
+}
+.textbox1{
+    width: 75%;
+    float: right;
+}
+h3{
+    color: #333333;
+}
+p3{
+    color: #333333;
     font-weight: lighter;
-    font-size: 1.5rem;
-    border: 2px solid #454548;
-    padding: 15px;
-    color: #454548;
-    text-decoration: none
+    font-size: 0.9rem;
 }
-.readmore{
-    text-align: center;
-    margin-top: 120px;
-    
+.bulb{
+    width: 25%;
+    margin-top: 25px;
+    float: left;
+}
+.screen{
+    width: 25%;
+    float: left;
+    margin-top: 25px;
+}
+.pencil{
+    width: 25%;
+    float: left;
+    margin-top: 25px;
+}
+>logo{
+    width: 25%;
+    float: left;
+    margin-top: 25px;
 }
