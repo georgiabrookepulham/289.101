@@ -8,23 +8,30 @@ body{
     margin:0;
     font-family: 'Lato', sans-serif;
 }
+.logoback{
+    height: 250px;
+    background-color: black;
+    margin-top: -100px;
+    padding-top: 80px
+}
 
 .logo{
-    margin-top:60px;
-    font-size: 2.5rem;
+    margin-top:100px;
+    font-size: 3.4rem;
     text-align: center;
+    font-weight: 600;
+    color: white;
 }
 .nav{
     width: 900px;
     margin-left: auto;
-    margin-right: auto;
-    
+    margin-right: auto; 
 }
 .menu{
     text-decoration: none;
     font-size: 1.2rem;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 80px;
     
 }
 .menu a{
@@ -84,6 +91,7 @@ p1{
 .service{
     height: 600px;
     background-color: #b6b6b6;
+    margin-top: 40px;
 }
 .services{
     width: 900px;
@@ -96,6 +104,7 @@ p1{
     height: 500px;
     width: 100%;
     float: left;
+    margin-top: 80px;
 }
 .box1{
     height: 400px;
@@ -167,18 +176,11 @@ p3{
 }
 .container2{
     width: 900px;
+    height: 550px;
+    float: left;
+    margin-top: 100px;
 }
 
-.row1{
-    float: left;
-    max-height: 240px;
-    margin-top: -100px;
-}
-.row2{
-    float: left;
-    max-height: 240px;
-    margin-top: 30px;
-}
 .aboutme{
     width: 900px;
     height: 650px;
@@ -198,7 +200,7 @@ p3{
 .about{
     background-color: black;
     width: auto;
-    height: 650px;
+    height: 650px;margin-top: 270px;
 }
 .hey{
     font-size: 2.5rem;
@@ -240,4 +242,97 @@ p2{
     height: 650px;
     margin-left: auto;
     margin-right: auto;
+}
+.contact{
+    height: 500px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.leftbox{
+    height: 450px;
+    width: 300px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.get{
+    font-size: 2.8rem;
+}
+.got{
+    font-size: 1.1rem;
+}
+.ph{
+    margin-top: 30px;
+}
+.num{
+    font-size: 1.1rem;
+}
+.social{
+    float: left;
+    margin-left: -65px;
+    margin-top: -130px;
+}
+/* general dashed containers */
+.container{
+    width:300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+/* changing colors on same paragraph */
+.color{
+    color:red;
+    font-style: italic;
+}
+.color2{
+    color:blue;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+/* form styles */
+label{
+    color:black;
+    margin-right: 10px;
+}
+.mybtn{
+    color:red;
+    background-color: white;
+}
+.mybtn2{
+    font-size: 16px;
+}
+.textbox{
+    background-color: darkgrey;
+    color:white;
+}
+.row{
+    margin-top: 5px;
+}
+.text2{
+    color:black;
+    text-align: center;
+    border-color:grey;
+}
+.rightbox{
+    height: 450px;
+    width: 300px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.work2{
+    text-align: center;
+}
+.footer{
+    height: 40px;
+    background-color: #b6b6b6;
+   padding: 50px;
+}
+.foot{
+    margin-left: 520px;
+    font-size: 0.7rem;
 }

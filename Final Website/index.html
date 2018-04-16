@@ -4,12 +4,19 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         
         <title>Georgia Brooke</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+
     </head>
     <body>
         <!--header starts here-->
         <div>
-            <div class="logo" id="home">GEORGIA BROOKE</div>
+            <div class="logoback">
+            <div class="logo" id="home">Georgia Brooke.</div>
+            </div>
             <div class="nav">
             <div class="menu">
                     <a href="#home">HOME</a>
@@ -21,27 +28,26 @@
         </div>
         
         <div class="background">
-                <img src="han.png">
+                <img src="img/han.png">
         </div>
         
         <!-- my services start here-->
         
         <div class="service">
              <div class="services">
-                <div class="square3"></div>
-                <div class="title2"><p1>My Services</p1></div>
+                
                 
                  <div class="boxes">
                     <div class="box1">
                         <div class="box2">
-                            <div class="bulb"><img src="bulb.jpg"></div>
+                            <div class="bulb"><img src="img/bulb.jpg"></div>
                             <div class="textbox1">
                                 <h3>Creative Ideas</h3>
                                 <p3>I Consider innovation and design when ideating.</p3>
                             </div>
                         </div>
                         <div class="box3">
-                            <div class="screen"><img src="screen.jpg"></div>
+                            <div class="screen"><img src="img/screen.jpg"></div>
                             <div class="textbox1">
                                 <h3>Clean Designs</h3>
                                 <p3>Strong, clear and visually easy to comprehend.</p3>
@@ -50,14 +56,14 @@
                      </div>
                     <div class="box1">
                         <div class="box2">
-                            <div class="pencil"><img src="pencil.jpg"></div>
+                            <div class="pencil"><img src="img/pencil.jpg"></div>
                             <div class="textbox1">
                                 <h3>Detailed Sketches</h3>
                                 <p3>Detailed and clear sketches for your design within 24 hours of inquiry.</p3>
                             </div>
                         </div>
                         <div class="box4">
-                            <div class="logo2"><img src="logo.jpg"></div>
+                            <div class="logo2"><img src="img/logo.jpg"></div>
                             <div class="textbox1">
                                 <h3>Logo Creation</h3>
                                 <p3>For businesses and company’s logos are how people see you. </p3>
@@ -66,14 +72,14 @@
                      </div>
                     <div class="box1">
                         <div class="box2">
-                            <div class="trend"><img src=trend.jpg></div>
+                            <div class="trend"><img src=img/trend.jpg></div>
                             <div class="textbox1">
                                 <h3>Knows the Trends</h3>
                                 <p3>I use different tools and analytics systems to identify the direction trends are heading</p3>
                             </div>
                         </div>
                         <div class="box3">
-                            <div class="printer"><img src="print.jpg"></div>
+                            <div class="printer"><img src="img/print.jpg"></div>
                             <div class="textbox1">
                                 <h3>Print</h3>
                                 <p3>Strong, even light, and immaculate image quality that is as affective in daylight as it is at night.</p3>
@@ -90,12 +96,27 @@
         <!-- work starts here-->
         <div>
             <div class="work" id="work">
-                <div class="square"></div>
-                <div class="title1"><p1>Work</p1></div>
+                <h1 class="work2"></h1>
                 
                 <div class="container2">
-                    <div class="row1"><img src="row1.png"></div>
-                    <div class="row2"><img src="row2.png"></div>
+                    <a data-fancybox="gallery" href="img/imge1_large.png"><img src="img/image1_small.png" width="290" height="235">
+                    </a>
+                    <a data-fancybox="gallery" href="img/imge2_large.png"><img src="img/image2_small.png" width="290" height="235">
+                    </a>
+                    <a data-fancybox="gallery" href="img/image3_large.png"><img src="img/image3_small.png" width="290" height="235">
+                    </a>
+                    <a data-fancybox="gallery" href="img/image4_large.png"><img src="img/image4_small.png" width="290" height="235">
+                    </a>
+                    <a data-fancybox="gallery" href="img/image5_large.png"><img src="img/image5_small.png" width="290" height="235"></a>
+                    
+                    <a data-fancybox="gallery" href="img/image6_large.png"><img src="img/image6_small.png" width="290" height="235">
+                    </a>
+                    <a data-fancybox="gallery" href="img/image7_large.png"><img src="img/image7_small.png" width="290" height="235">
+                    </a>
+                    <a data-fancybox="gallery" href="img/image8_large.png"><img src="img/image8_small.png" width="290" height="235">
+                    </a>
+                    <a data-fancybox="gallery" href="img/image9_large.png"><img src="img/image9_small.png" width="290" height="235">
+                    </a>
                 </div> 
            </div>        
         </div>
@@ -103,8 +124,7 @@
         <!-- about me starts here-->
          <div class="about">
             <div class="aboutme" id="about">
-                <div class="square2"></div>
-                <div class="title1"><p2>About Me</p2></div>
+          
             </div> 
                 <div class="container3">
                     <h1 class="hey">Hey! I am Georgia Brooke.</h1>
@@ -117,7 +137,54 @@
         </div>
 
         <!-- Get in contact starts here-->
+        <div class="contact">
+            <div class="getincontact" id="contact">
+              
+            </div> 
+            
+            <div class="leftbox">
+                <h1 class="get">Get in Touch.</h1>
+                <p3 class="got">Got an idea, want to say hello or just chat? Feel free to get in touch. I'd love to hear from you.</p3>
+            
+                <div class="ph">
+                <h3>ph: <p1 class="num">027 922 3760</p1></h3>
+                <h3>e: <p1 class="num">georgiabrookepulham@gmail.com</p1></h3>
+                <img src="img/social.png" width="320" class="social">
+                </div>
+            </div>
+            
+            <div class="rightbox">
+                        <div class="container" id="nolabel">
+                            <form> 
+                                <div class="row">
+                                    <input class="text2" placeholder="Enter First Name" type="text">
+                                </div>
+                                <div class="row">
+                                    <input class="text2" placeholder="Enter Last Name" type="text">
+               
+                                </div>
+                            <div class="row">
         
+                                <textarea rows="10" cols="50">
+                    
+                                </textarea> 
+               
+                                </div>  
+                            <div class="row">
+                                <!-- button -->
+                                <input class="mybtn2" type="button" value="submit">
+                                </div>  
+                            </form>
+                            </div>
+            </div>
+      
+        </div>
+        
+        
+         <div class="footer">
+            <p3 class="foot">©2018 GEORGIABROOKE.COM ALL RIGHTS RESERVED</p3>
+            
+            </div>
     </body>
     
     
